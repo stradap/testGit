@@ -1,28 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
 		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="/Users/jestra3x/angularTest/node_modules/angular-material/angular-material.css">
 			<link rel="stylesheet" href="/Users/jestra3x/angularTest/style.css">
 				<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
 				</head>
 				<body ng-app="mainApp">
-
-					<div ng-controller="mainController">
-						<div layout="row">
-							<div flex class="firstSection">First item in row</div>
-							<div flex>Second item in row</div>
+					<header id="header">
+						<div class="content">
+							<div id="logo">
+								<a href=""> Intel </a>
+							</div>
+							<nav id="nav">
+								<ul>
+									<li>
+										<a href="#slide1" class="active" title="Next Section" >Slide 1</a>
+									</li>
+									<li>
+										<a href="#slide2" title="Next Section">Slide 2</a>
+									</li>
+									<li>
+										<a href="#slide3" title="Next Section">Slide 3</a>
+									</li>
+									<li>
+										<a href="#slide4" title="Next Section">Slide 4</a>
+									</li>
+									<li>
+										<a href="#slide5" title="Next Section">Slide 5</a>
+									</li>
+								</ul>
+							</nav>
 						</div>
+					</header>
+					<div ng-controller="mainController">						
+				    <div id="slide1"/>
 					</div>
+					<div id="slide3">							
+						<div class="content" >
+							<div class="quotes_container">
+								<h3 class="quotes">“Then the Grinch thought of something he hadn't before! What if Christmas, he thought, doesn't come from a store. What if Christmas...perhaps...means a little bit more!”</h3>
+								<img src="" align="left"/>
+								<h4 class="author_name_gray">Dr. Seuss </h4>
+							</div> 
+						</div> 
+					</div>
+					<div id="slide4">
+					<div class="content" >
+							<div class="quotes_container">
+								<h3 class="quotes">“Then the Grinch thought of something he hadn't before! What if Christmas, he thought, doesn't come from a store. What if Christmas...perhaps...means a little bit more!”</h3>
+								<img src="" align="left"/>
+								<h4 class="author_name_gray">Dr. Seuss </h4>
+							</div> 
+						</div> 
+					</div>
+					
 
-					<script src="/Users/jestra3x/angularTest/node_modules/angular/angular.js"/> 
-					<script src="/Users/jestra3x/angularTest/node_modules/angular-aria/angular-aria.js"/> 
-					<script src="/Users/jestra3x/angularTest/node_modules/angular-animate/angular-animate.js"/> 
-					<script src="/Users/jestra3x/angularTest/node_modules/angular-material/angular-material.js"/> 
-					<script src="/Users/jestra3x/angularTest/app.js">
-				
-
-				
-
+				</div>
+				<script src="/Users/jestra3x/angularTest/node_modules/angular/angular.js"/> 
+				<script src="/Users/jestra3x/angularTest/node_modules/angular-aria/angular-aria.js"/> 
+				<script src="/Users/jestra3x/angularTest/node_modules/angular-animate/angular-animate.js"/> 
+				<script src="/Users/jestra3x/angularTest/node_modules/angular-material/angular-material.js"/> 
+				<script src="/Users/jestra3x/angularTest/app.js">
 				</body>
-</html>
+			</html>
