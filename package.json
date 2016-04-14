@@ -1,0 +1,12 @@
+{
+  "name": "packages",
+  "version": "1.0.0",
+  "description": "test of proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Pablo Estrada Venegas <juan.pablox.estrada.venegas@intel.com>",
+  "license": "ISC", 
+  "repository" : "http://localhost"
+}
