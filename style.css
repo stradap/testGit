@@ -14,3 +14,7 @@
   background: #ff8a80; }
 .gridListdemoBasicUsage md-grid-tile {
   transition: all 400ms ease-out 50ms; }
+  
+ .firstSection{
+ background-image : http://img0.mxstatic.com/wallpapers/0f458fce470938f1695a8f9865485f17_large.jpeg;
+ }
