@@ -36,8 +36,12 @@ width: 100%;
 background-color : black;
 height: 80px;
 position: fixed;
+z-index : 999;
 }
 #nav { width: 410px; float: right; margin-top: 20px; }
+#logo{
+
+background : url('https://newevolutiondesigns.com/images/freebies/city-wallpaper-47.jpg') 50% 0 no-repeat fixed}
 #logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }
 #nav ul{
 list-style: none;
@@ -57,16 +61,46 @@ padding-left: 21px;
 .center { margin: 0 auto; }
 .content{ margin: 0 auto; width: 960px; }
 .clear { clear: both; }
-
+ 
+ .services{
+ background-color : white;
+ color : black;
+ text-align : center;
+   position: relative;
+   padding: 1em 1.5em;
+  margin: 2em auto;
+ }
+ .services:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-width: 0 16px 16px 0;
+  border-style: solid;
+  border-color: #fff #fff #658E15 #658E15;
+  background: #658E15;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+  /* Firefox 3.0 damage limitation */
+  display: block; width: 0;
+}
+ .services:hover{
+  background-color : black;
+ color : white;
+ }
 
  #slide1{
- background : url('http://img0.mxstatic.com/wallpapers/0f458fce470938f1695a8f9865485f17_large.jpeg') 50% 0 no-repeat fixed;
+  background : url('http://estaticos.globoradio.globo.com/fotos/2016/03/5cbc3c45-8ea8-4901-9952-9bd981e7f2f0.jpg') 50% 0 no-repeat fixed;
 color: #fff;
 height: 600px;
 margin: 0;
 padding: 200px 0 260px 0;
 background-size: cover;
  }
+
+
+ 
  #slide2{
 background-color: #fff;
 color: #333333;
@@ -84,7 +118,8 @@ padding: 200px 0 260px 0;
 background-size: cover;
 }
 #slide4{
- background : url('http://estaticos.globoradio.globo.com/fotos/2016/03/5cbc3c45-8ea8-4901-9952-9bd981e7f2f0.jpg') 50% 0 no-repeat fixed;
+ background : url('http://img0.mxstatic.com/wallpapers/0f458fce470938f1695a8f9865485f17_large.jpeg') 50% 0 no-repeat fixed;
+
 color: #fff;
 height: 600px;
 margin: 0;
