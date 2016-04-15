@@ -7,6 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Juan Pablo Estrada Venegas <juan.pablox.estrada.venegas@intel.com>",
-  "license": "ISC", 
-  "repository" : "http://localhost"
+  "license": "ISC",
+  "repository": "http://localhost",
+  "dependencies": {
+    "angular": "latest",
+    "angular-animate": "^1.5.3",
+    "angular-aria": "latest",
+    "angular-material": "latest",
+    "angular-messages": "latest",
+    "angular-route": "^1.5.3"
+  }
 }
